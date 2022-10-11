@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="style.css">
+    <title>Business Website</title>
+</head>
+<body>
+    <!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top shadow">
+    <div class="container-fluid">
+<a href=""class="navbar-brand font-monospace">Menyhart Media</a>
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbar"
+aria-controls="navbar"
+aria-expanded="false"
+aria-label="Toggle-navigation"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item"><a href="#" class="nav-link active text-uppercase">home</a></li>
+<li class="nav-item"><a href="#About" class="nav-link text-uppercase">About us</a></li>
+<li class="nav-item"><a href="#Team" class="nav-link text-uppercase">Team</a></li>
+<li class="nav-item"><a href="#Services" class="nav-link text-uppercase">Services</a></li>
+<li class="nav-item"><a href="#Contact" class="nav-link text-uppercase">Contact</a></li>
+</ul>
+</div>
+    </div>
+</nav>
+    <!--Header-->
+    <header class="vh-100" style="background: url(https://source.unsplash.com/GWe0dlVD9e0) center/cover no-repeat;">
+<div class="container mt-5 pt-5 h-25">
+<h4 class="text-light font-monospace text-shadow animate-text-right">Financial Planning For Life </h4>
+<h1 class="display-2 text-white text-shadow animate-text-right-3s">
+    Trusted to help guide entrepreneurs make better financial decisions.
+</h1>
+<button class="btn btn-lg btn-info shadow mt-3 animate-text-right-5s" data-bs-toggle="modal" data-bs-target="#getoffer">
+Get offer
+</button>
+</div>
+ <!--header> get started content model-->
+ <div class="modal fade"
+      id="getoffer"
+      tabindex="-1"
+      aria-labelledby="getofferLabel"
+      aria-hidden="true" 
+ >
+<div class="modal-dialog">
+    <div class="modal-content">
+<div class="modal-header">
+    <h5 class="modal-title" id="getofferLabel">New message</h5>
+    <button
+    class="btn-close"
+    type="button"
+    data-bs-dismiss="modal"
+    aria-label="close"
+    >   
+    </button>
+</div>
+<div class="modal-body">
+<form action="#">
+<div class="mb-3">
+<label for="" class="col-form-label">Recipient:</label>
+<input type="text" class="form-control">
+</div>
+<div class="mb-3">
+    <label for="" class="col-form-label">First name:</label>
+    <input type="text" class="form-control" placeholder="Enter your first name" >
+    </div>
+    <div class="mb-3">
+        <label for="" class="col-form-label">Last name:</label>
+        <input type="text" class="form-control" placeholder="Enter your last name">
+        </div>
+
+        <div class="mb-3">
+            <label for="" class="col-form-label">Message:</label>
+            <textarea type="text" class="form-control"></textarea>
+            </div>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+<button class="btn btn-primary" type="submit" >Send message</button>
+</div>
+</div>
+</div>
+
+
+</div>
+    </header>
+    
+    <!--About-->
+    <section id="About" class="container mt-5 pt-5">
+<div class="row">
+<div class="col-lg-6">
+    <h4 class="font-monospace my-5">About us!</h4>
+    <h2 class="display-2">Since 2008 menyhart media grows business</h2>
+</div>
+</div>
+<div class="card border-0 my-3 text-white bg-info mx-auto"
+style="max-width: 1400px;">
+<div class="row g-0">
+<div class="col-md-6"><img src="https://source.unsplash.com/376KN_ISplE" alt="aboutimg" 
+    class="card-img-top">
+</div>
+<div class="col-md-6">
+    <div class="card-body mt-3 p-2 text-center">
+<h5 class="card-title fs-5 font-monospace">Who we are</h5>
+<p class="card-text fs-1 mt-3">
+    We keep things simple, putting you in control so you can make
+    informed choices
+  </p>
+  <button class="btn btn-light mt-3 shadow"
+  type="button"
+  data-bs-toggle="modal"
+  data-bs-target="#aboutModal"
+  >
+What WE D<i class="bi bi-info-circle"
+             data-bs-toggle="tooltip"
+             data-bs-placement="right"
+             title="Learn more..."
+></i>
+  </button>
+    </div>
+</div>
+</div>
+</div>
+ <!--about> about model content-->
+ <div class="modal fade" id="aboutModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+ aria-labelledby="aboutModalLabel"
+ aria-hidden="true"
+ >
+<div class="modal-dialog modal-dialog-scrollable ">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="aboutModalLabel ">About us</h5>
+<nav id="about-content">
+    <ul class="nav">
+        <li class="nav-item"><a href="#2008" class="nav-link">2008</a></li>
+        <li class="nav-item"><a href="#2014" class="nav-link">2014</a></li>
+        <li class="nav-item"><a href="#2020" class="nav-link">2020</a></li>
+        <li class="nav-item"><a href="#2022" class="nav-link">2022</a></li>
+    </ul>
+
+</nav>
+<button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
+    
+</button>
+</div>
+<div class="modal-body">
+    <h4 id="2008">In 2008</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, consequuntur voluptate. Eligendi officiis architecto enim, in omnis optio consequatur voluptas fuga eum repudiandae magnam, ab voluptates maiores ullam. Cupiditate accusamus magni iure! Ipsum reprehenderit maiores veniam dolores, quasi fugiat dicta dignissimos, quia, quisquam tempora fugit consectetur quae. Corrupti totam quisquam, exercitationem iste laboriosam repellat pariatur, dolores, iusto cum nobis voluptate minima sapiente! Exercitationem aut est facere ad obcaecati nihil, natus perferendis dolorem omnis. Rerum repudiandae labore doloremque eius ipsum vero error tempore veritatis quam voluptatem cumque voluptates placeat ex quas magni impedit architecto praesentium culpa tempora nostrum, animi quidem tenetur quasi enim! Nihil eos eius magnam dicta laborum, sint, blanditiis quae molestias, ex officiis incidunt impedit? Totam, deserunt molestiae voluptates iusto dicta temporibus reiciendis, dolorum labore quis sed in nemo atque iste, quos consequuntur sint minima eaque unde magni. Quod deleniti iure quidem dolor sed, doloremque maiores! Error incidunt rem amet ullam. Perferendis quaerat eius nulla nesciunt tenetur alias enim, commodi eos labore perspiciatis obcaecati optio deserunt non ducimus sunt magnam veniam inventore minus reiciendis animi maiores molestias illo voluptatum reprehenderit? Nulla animi non voluptates possimus magni nisi cum, sapiente, officia fugiat asperiores quam reiciendis modi sed nostrum repellendus eligendi delectus optio! Et error animi sint molestiae sed id, tempora fugit nobis dignissimos ipsa, dicta dolorem rerum libero. Explicabo, quod porro perferendis non repudiandae cupiditate, inventore saepe eum delectus minus illum voluptate nemo dolorum itaque iusto tempora enim qui, incidunt exercitationem possimus cumque eligendi! Dolorem perferendis laudantium nam eveniet? Vitae quae eius voluptas doloremque id, autem tenetur ad dignissimos. Doloremque, esse veritatis cumque explicabo repellat praesentium mollitia magnam tempora distinctio? Vel quaerat velit asperiores nam, mollitia aliquam similique eum, dolor quae ipsum quisquam atque, neque suscipit officia doloribus repudiandae esse! Dolorum error in repellat corrupti quo consequuntur, harum consectetur, quaerat est dicta dolore. Quam minus repellat voluptatum quidem voluptates veniam? Vel corrupti ea excepturi, atque fugiat error neque vitae magnam dolore nobis repudiandae tempora voluptate fugit velit dicta doloribus expedita, consequuntur temporibus, eum non! Dolorum similique nemo veritatis repellendus, laboriosam assumenda repellat, asperiores perspiciatis rerum saepe corrupti impedit, accusantium facere? Quis vel voluptas neque aperiam non quae est distinctio deleniti, qui laborum aliquam molestias minima provident explicabo dolor optio sapiente impedit nisi corrupti voluptates eos dolore? Alias similique at voluptate sequi omnis quo optio, nulla ipsum minima dolores soluta molestias voluptates vel aperiam modi asperiores amet consequuntur porro ea eius aliquam magnam expedita nobis! Sit accusamus nisi voluptas ad a quia facilis vitae, nam doloremque repudiandae quidem exercitationem doloribus sed dolore molestiae illo! Similique ipsa minima labore asperiores enim, possimus, voluptas aspernatur sint aperiam iste pariatur temporibus nulla fuga repudiandae illo assumenda sed earum optio expedita distinctio voluptatem dolore maiores. Est recusandae excepturi architecto aliquid vitae, expedita dolorem repellat quibusdam unde eum distinctio, tempore eius, saepe odio perferendis sapiente deserunt. Omnis, blanditiis facilis. Repudiandae id fugit, quidem ab enim beatae saepe, tempora impedit eum architecto inventore nesciunt autem ipsa dignissimos aperiam veniam, cumque voluptatem quia consequuntur libero at adipisci. Est!
+    </p>
+    <h4 id="2014">In 2014</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta placeat excepturi fuga nulla facilis assumenda eius eveniet vero numquam iure sint et exercitationem quasi non vel, nobis sed, quo officia animi inventore accusamus! Quo voluptatibus labore dolor? Doloribus veritatis ab saepe rem voluptatem, est tempora non suscipit sequi nulla a natus. Mollitia doloribus repellat ducimus minima animi fugiat tempore reiciendis impedit quia distinctio eos autem a ex nostrum omnis illo, consectetur, officiis nobis sapiente labore ab consequatur dolores. Placeat, eum, maiores aut dignissimos saepe doloribus voluptas, maxime vero laborum at accusamus. At saepe soluta suscipit dicta doloremque nesciunt magni et ab officia veritatis ipsum ipsam, modi dolorem magnam pariatur, quae doloribus, quis minima aspernatur dolores minus a mollitia porro? Minima cum facilis necessitatibus suscipit placeat mollitia quis dicta eveniet officia quibusdam ipsum recusandae labore soluta eos quod fuga delectus ipsam adipisci modi magni, nesciunt odio officiis ullam? Placeat dolores illo non, similique ducimus architecto excepturi officiis magnam quae, repudiandae obcaecati atque minus tempore? Sit amet earum fugit perferendis animi reprehenderit, molestiae inventore repudiandae quibusdam, ab minus dolore? Dicta quos, commodi consectetur exercitationem tempore consequatur quasi repellat labore voluptas vel similique minima, laudantium cupiditate accusantium? Ullam, pariatur nihil tempore similique molestiae rem accusamus vitae quisquam eos culpa totam dicta. Hic quia mollitia et aperiam sequi, neque illum laborum aliquam sapiente accusantium velit dolores quidem quos repudiandae iure animi minima porro labore soluta dolore dolorem ipsam culpa. Esse, voluptatum fuga? Officiis nam totam repellat. Minus eius facere quo error, distinctio laborum, tempora assumenda, impedit laboriosam sint mollitia. Inventore expedita dolore, harum recusandae doloremque quibusdam temporibus amet vero, qui deleniti, blanditiis iure eligendi quos! Magni asperiores perspiciatis consequuntur beatae modi. Similique sed unde necessitatibus enim reprehenderit quia ex harum provident saepe obcaecati porro quidem aspernatur esse quo dolorum, id incidunt explicabo. Similique porro corporis voluptates facilis sequi tempore nihil aspernatur veniam natus eaque! Exercitationem repudiandae fugiat quas laboriosam sit iste error! Placeat ut enim illum fuga maiores voluptates quas voluptas doloremque provident. Quidem quaerat modi asperiores, hic quae accusamus! Porro autem ipsum officiis non ea. Molestias, iusto ipsam quibusdam eos perferendis, dignissimos esse at alias voluptatibus, ea vero eligendi facere tenetur. Nemo consequatur voluptatibus fuga, repellat maiores quae qui aliquid dolorem ducimus praesentium ipsam minima itaque odio, facilis voluptas vitae cum corrupti consectetur perferendis facere iusto minus! Cumque porro deserunt quas ea tempora! Doloribus eum quos recusandae quasi praesentium corrupti, in odio perspiciatis animi dicta unde adipisci! Et rerum consectetur repellat totam laboriosam consequuntur velit minus, earum, quos ipsum perspiciatis sit illo dignissimos eaque ea obcaecati esse. Expedita vero repellat minus laudantium ullam maiores velit quidem ipsa aperiam necessitatibus quae, perferendis magni officiis? Non quam doloribus dolore, nulla architecto in atque quod doloremque eveniet optio recusandae dolores eius. Doloremque enim totam temporibus dolor qui porro explicabo quam rerum consequatur nihil similique ullam asperiores corrupti laboriosam quasi, illo voluptatem exercitationem eligendi provident, adipisci sed nulla ut magnam. Minus amet quo eum dolores molestias magni mollitia omnis saepe aliquid. Consectetur quis fugiat omnis! Repudiandae, voluptas!</p>
+    <h4 id="2020">In 2020</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, labore! Rerum pariatur at odit eum, corrupti in harum sint facere sequi quisquam debitis ipsa aliquam cumque nam tempore ut, aut deleniti vitae quod aspernatur quibusdam excepturi saepe optio. Saepe aspernatur non distinctio, cum recusandae similique nulla! Necessitatibus aut sunt quibusdam sequi tempora animi ut pariatur porro sint, autem praesentium laudantium iste. Quisquam praesentium cupiditate, vero corporis sit ex eligendi expedita tempore qui quaerat saepe reiciendis aut ab minima porro rerum nisi eius, voluptates id. Nesciunt pariatur facere deserunt sed adipisci quidem dicta maiores amet minus aspernatur, quos reiciendis inventore optio quo consequuntur ex fugiat reprehenderit magnam omnis, molestiae eos, ipsum vero voluptate! Commodi veritatis recusandae expedita atque iste quaerat quis ratione dolor consectetur, neque magni cupiditate soluta eos id. Similique illo temporibus voluptatibus officia dolores sunt, reiciendis animi fugiat consequuntur nostrum ullam harum perspiciatis, sint est cumque, nesciunt aspernatur nobis corporis. Eius fuga officiis id harum optio unde dolore molestiae delectus alias tempore, cumque, aspernatur, odit consequuntur iste facere molestias aliquam porro omnis doloribus reiciendis vitae quisquam. Nulla cumque quasi nobis minima. Est, ducimus ut! Porro repellendus commodi nostrum doloribus aspernatur quae reprehenderit fugiat officiis deserunt? Suscipit illo soluta commodi voluptas numquam aspernatur maiores fugiat, laboriosam doloremque dolorem minima impedit architecto quo nihil pariatur ut ratione eveniet ea, exercitationem iusto odio? Libero architecto asperiores at corrupti illum quia quo laudantium suscipit totam nobis vero consequuntur accusamus, magni maiores doloribus perspiciatis nam tempora ex, facilis aut officiis consectetur est quasi. Consequuntur alias, rerum consectetur, distinctio suscipit asperiores possimus similique architecto nihil, non fuga rem magnam ipsa. Officiis, labore expedita. Suscipit harum laboriosam ipsum temporibus. Voluptate est deserunt beatae unde, natus doloremque quibusdam ipsum tempora quisquam architecto similique veniam voluptatibus autem fugiat sunt asperiores earum ad aut aliquam numquam. Molestias optio laudantium enim ut dolorum neque voluptas dolor reiciendis debitis possimus delectus deleniti similique a nihil minus alias, voluptatibus, ex culpa? Eum quo nam consequuntur molestias repellat odio fugit inventore voluptates exercitationem? Facere dolores quaerat praesentium rerum earum iste, explicabo quae quia rem! Facilis obcaecati maxime consequuntur inventore ullam esse, eveniet ipsa nemo culpa excepturi voluptas aperiam nisi fuga magnam numquam. Dolores, quo! Perferendis necessitatibus sed, culpa rerum quos repellendus nulla quam architecto, expedita dolorum itaque ad. Suscipit pariatur quae earum? Blanditiis necessitatibus saepe aliquid. Beatae fugit ex inventore culpa sit? Ipsam incidunt rerum voluptatibus, deserunt nihil dicta odio explicabo eum iste, temporibus consectetur, adipisci deleniti a laboriosam quisquam totam minima. Magni commodi, eos, fugiat sint eligendi corrupti quod voluptatem animi, culpa eum recusandae dolorum hic qui inventore aut voluptas dolor explicabo ratione nemo ipsam. Inventore quidem libero iure velit distinctio exercitationem voluptatem earum dolorum ipsa optio laboriosam rerum facilis nemo eum, voluptatibus mollitia necessitatibus ab aliquid dicta. Totam cumque consequatur praesentium explicabo adipisci, eius corporis illo aliquid architecto perspiciatis, repellendus, quos quis. Neque, optio odit nulla possimus voluptatum adipisci blanditiis, laboriosam laudantium voluptatem tempore dolorum atque soluta porro. Libero labore aut, natus perspiciatis illo quo est nisi excepturi ipsa eligendi a.</p>
+    <h4 id="2022">In 2022</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quasi adipisci velit repellat, exercitationem perferendis maxime deserunt vitae voluptatem, cum vel totam, similique corrupti. Repellendus, alias aliquam quod quo officiis neque cupiditate iure delectus id, quam possimus? Ab illo autem nostrum rerum aliquam consequuntur magni blanditiis! Iusto, quas! Ducimus optio ad, sequi tenetur cum labore totam quia officiis, unde obcaecati necessitatibus maxime facere itaque in eaque eum accusamus, deserunt consequuntur incidunt esse error provident reprehenderit consequatur facilis. Nobis dolorem sit aliquam, tempora consequatur, reprehenderit consectetur repellat qui nisi beatae placeat modi ratione eveniet ut itaque aliquid voluptas a enim blanditiis omnis sint! Molestias, dolor! Tempora esse, voluptatem deserunt sunt quos labore. Ab a possimus corporis itaque, vitae iure voluptas illum placeat harum fugit id cupiditate laudantium pariatur! Nostrum quo, velit iure deleniti quas praesentium amet, qui molestiae ratione placeat explicabo voluptatibus, nulla tempore eum quos? Aliquam, saepe natus exercitationem vero eum commodi tempora provident dolore quos reiciendis eligendi repudiandae eos suscipit hic quaerat quibusdam officia non distinctio maiores magnam facilis in odit nihil. Laborum ipsum minus consequuntur natus enim temporibus, quidem consectetur ipsam repudiandae sunt architecto ducimus nisi sint, debitis incidunt harum esse porro animi, eum ullam vitae delectus corporis doloremque. Magnam corporis aut accusantium debitis aliquid? Inventore quam dignissimos explicabo quibusdam distinctio consequatur fuga, earum quasi, expedita adipisci praesentium. At et ullam reiciendis molestias explicabo, debitis temporibus ratione, repellat veritatis aliquam ex expedita eum magni consequuntur? Eos corporis veniam officiis, optio eius repellendus fuga nobis temporibus, iste, perspiciatis eaque inventore accusamus! Ab illum quaerat assumenda atque hic at officiis numquam adipisci est. Facere aperiam commodi excepturi reprehenderit quo iusto quos laborum dolor provident doloremque, architecto tenetur earum. Doloremque praesentium repellendus, nihil commodi quo id corporis sequi. Ipsa modi explicabo tempore facere commodi ad nobis suscipit, consequuntur velit delectus. Laborum quasi, aperiam aspernatur eaque obcaecati est minima maxime saepe dignissimos maiores vero doloremque illum odit amet sequi et temporibus labore facere reiciendis voluptatum nihil. Hic fugit vitae sint sequi perferendis labore dolore odio recusandae. Expedita natus minus perspiciatis iure nesciunt facilis atque provident saepe obcaecati sequi consequatur sed esse ut cumque iusto omnis, quidem temporibus vitae. Vero quisquam consequuntur magni non temporibus dolor, alias dignissimos ex ea impedit a, rerum quibusdam est ab cum, voluptatum dolorem autem fuga ratione! Maiores quasi itaque laudantium qui voluptates! Autem praesentium reprehenderit quae modi quibusdam at commodi optio quisquam aliquam quos accusantium, perferendis nobis, est deleniti consectetur exercitationem, assumenda culpa aperiam recusandae cumque quod doloremque repellendus! Provident labore molestias a cumque delectus excepturi beatae assumenda perferendis. Facilis quas sunt, illum laboriosam, incidunt, impedit similique quam veniam natus nihil commodi! Placeat aliquid architecto quidem error maxime esse reprehenderit accusamus? Mollitia neque quis atque sed vero rem, est ducimus facilis animi laudantium et debitis deserunt, distinctio voluptates veniam fugit iste officiis modi possimus? Tempore voluptate qui in corrupti accusantium repellat eius dicta, eum, labore suscipit rem facere veritatis beatae, eligendi enim? Quasi eveniet amet id libero delectus iure, debitis ab ipsa. Saepe est eum iusto enim!</p>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">
+         Close
+    </button>
+</div>
+</div>
+</div>
+
+</div>
+    </section>
+    
+    <!--Team-->
+    <section class="container mb-5 pt-4" id="Team">
+<div class="row">
+    <div class="col-lg-6">
+<h4 class="font-monospace my-5">Our Expert Team</h4>
+<h2 class="display-2">Meet our expert fenlance executive team</h2>
+    </div>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+<div class="card-shadow" style="width: 16rem">
+    <img src="https://source.unsplash.com/7YVZYZeITc8" alt="" class="card-img-top">
+    <div class="card-body">
+<h5 class="card-title">John-doe</h5>
+<p class="card-text text-info">Advisor</p>
+<a tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+   title="John doe"
+   data-bs-content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos distinctio reprehenderit dolore debitis alias quisquam dolor nulla obcaecati odio."
+>About John</a>
+    </div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+    <div class="card-shadow" style="width:16rem">
+        <img src="https://source.unsplash.com/u3WmDyKGsrY" alt="" class="card-img-top">
+        <div class="card-body">
+    <h5 class="card-title">John-doe</h5>
+    <p class="card-text text-info">Advisor</p>
+    <a tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+       title="John doe"
+       data-bs-content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos distinctio reprehenderit dolore debitis alias quisquam dolor nulla obcaecati odio."
+    >About John</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+        <div class="card-shadow" style="width:16rem">
+            <img src="https://source.unsplash.com/Qy4wpL2B4ac" alt="" class="card-img-top">
+            <div class="card-body">
+        <h5 class="card-title">John-doe</h5>
+        <p class="card-text text-info">Advisor</p>
+        <a tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+           title="John doe"
+           data-bs-content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos distinctio reprehenderit dolore debitis alias quisquam dolor nulla obcaecati odio."
+        >About John</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-5 mb-sm-3">
+            <div class="card-shadow" style="width:16rem">
+                <img src="https://source.unsplash.com/RGtSTDmmcCk" alt="" class="card-img-top">
+                <div class="card-body">
+            <h5 class="card-title">John-doe</h5>
+            <p class="card-text text-info">Advisor</p>
+            <a tabindex="0" class="btn btn-sm btn-info" role="button" data-bs-toggle="popover" data-bs-trigger="focus"
+               title="John doe"
+               data-bs-content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos distinctio reprehenderit dolore debitis alias quisquam dolor nulla obcaecati odio."
+            >About John</a>
+                </div>
+            </div>
+            </div>
+</div>
+    </section>
+    <!--Services-->
+    <section class="container mb-5 pt-5" id="Services">
+        <div class="row">
+            <div class="col-lg-6">
+        <h4 class="font-monospace my-5">What we offer!</h4>
+        <h2 class="display-2">Take advantage of our premium services.</h2>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4">
+             <div class="col card shadow text-white bg-primary mb-5 mb-sm-3">
+               <div class="card-header display-6 mt-2 shadow">
+                 <i class="bi bi-briefcase"></i>Financial Advice
+               </div>
+               <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <div class="list-group mb-3">
+                <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+
+                </div>
+               </div>
+               <div class="card-footer">
+                <a href="" class="btn btn-outline-light">Get started</a>
+               </div>
+             </div>
+              
+             <div class="col card shadow text-white bg-info mb-5 mb-sm-3">
+                <div class="card-header display-6 text-dark mt-2 shadow">
+                  <i class="bi bi-briefcase"></i>Financial Advice
+                </div>
+                <div class="card-body text-dark">
+                 <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                 <div class="list-group mb-3">
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+ 
+                 </div>
+                </div>
+                <div class="card-footer">
+                 <a href="" class="btn btn-outline-light">Get started</a>
+                </div>
+              </div>
+              <div class="col card shadow text-white bg-primary mb-5 mb-sm-3">
+                <div class="card-header display-6 mt-2 shadow">
+                  <i class="bi bi-briefcase"></i>Financial Advice
+                </div>
+                <div class="card-body">
+                 <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                 <div class="list-group mb-3">
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                 <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+ 
+                 </div>
+                </div>
+                <div class="card-footer">
+                 <a href="" class="btn btn-outline-light">Get started</a>
+                </div>
+              </div>
+               
+              <div class="col card shadow text-white bg-info mb-5 mb-sm-3">
+                 <div class="card-header display-6 text-dark mt-2 shadow">
+                   <i class="bi bi-briefcase"></i>Financial Advice
+                 </div>
+                 <div class="card-body text-dark">
+                  <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                  <div class="list-group mb-3">
+                  <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                  <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                  <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+                  <label for="" class="list-group-item" ><input type="checkbox" class="form-check-input me-1">First checkbox</label>
+  
+                  </div>
+                 </div>
+                 <div class="card-footer">
+                  <a href="" class="btn btn-outline-light">Get started</a>
+                 </div>
+               </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer id="Contact" class="bg-light pt-3">
+      <div class="container">
+          <h4 class="text-info text-decoration-underline font-monospace mb-3"> 
+            Menyhart Media
+          </h4>
+          <small class="fw-lighter">Lorem ipsum dolor sit amet.</small>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt cupiditate eius accusamus totam vero!</p>
+          <div class="row">
+            <div class="col container">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Service</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="col container">
+                <h5>Solutions</h5>
+                <ul>
+                    <li>Invest Panning</li>
+                    <li>Taxe & Business</li>
+                    <li>Risk Management</li>
+                    <li>Finance</li>
+                    <li>Life & Insurance</li>
+                </ul>
+            </div>
+            <div class="col container">
+                <h5>Contact Us</h5>
+                <ul class="list-group">
+                 <li class="list-group-item"><i class="bi bi-house-door m2 text-info"></i> Raccon city</li>
+                 <li class="list-group-item"><i class="bi bi-signpost-2 m2 text-info"></i> Elm str 333</li>
+                 <li class="list-group-item"><i class="bi bi-telephone m2 text-info"></i> +166 3743 333</li>
+                 <li class="list-group-item"><i class="bi bi-envelope m2 text-info"></i> info@mail.com</li>
+                 <li class="list-group-item"><i class="bi bi-globe m2 text-info"></i> www.media.com</li>
+                </ul>
+            </div>
+          </div>
+      </div>
+      <div class="bg-dark text-light text-center mt-3 p-3">
+         <div class="row">
+           <div class="col-sm-7">
+            &copy; Copyright 2022
+            <span class="font-monospace">Menyhat Media</span> .All right reserved
+           </div>
+           <div class="col-sm-5">
+            Degined by <span class="font-monisoace">Md. Sabbir Hossain</span>
+           </div>
+           
+         </div>
+      </div>
+    </footer>
+    <!--Bootstrap js CDN-->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!--Script for tooltips-->
+<script>
+   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+<!--Script for popovers-->
+<script>
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+</body>
+</html>
